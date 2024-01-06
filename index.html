@@ -46,3 +46,4 @@
 
         this.speed += 0.1;
 
+        this.color = `hsla(${parseInt(this.color.split(',')[0].slice(4))}, 100%, 50%, ${this.life / 100})`;
